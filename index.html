@@ -27,7 +27,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script>
         $(document).ready(function(){  
-        $("#contact-btn").click(function(e) {
+        $(".contact-btn").click(function(e) {
             e.preventDefault();
             $('html, body').animate({
             scrollTop: $($.attr(this, 'href')).offset().top
@@ -74,6 +74,7 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li class="active"><a href="#home-page">Home</a></li>
                         <li><a href="#service-page">Service</a></li>
+                        <li><a href="#product">Product</a></li>
                         <li><a href="#feature-page">Features</a></li>
                         <li><a href="#price-page">Technologies</a></li>
                         <li><a href="#team-page">Team</a></li>
@@ -95,7 +96,7 @@
                 <div class="col-xs-12 col-md-7 header-text">
                     <h2>All you needed is HERE.</h2>
                     <p>With our team we'll bring your dream come to the real world.</p>
-                    <a href="#contact-page" class="button white" id="contact-btn">Contact US</a>
+                    <a href="#contact-page" class="button white contact-btn">Contact US</a>
                 </div>
                 <div class="hidden-xs hidden-sm col-md-5 text-right">
                     <img src="images/logo.png" width="100%" alt="Rocket Inventions">
@@ -186,7 +187,7 @@
     
     <!--Feature-area/-->
 
-    <section class="angle-bg sky-bg section-padding">
+    <section class=" product-area overlay section-padding" id="product">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
@@ -202,7 +203,7 @@
                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute</p>
                                         </div>
                                         <div class="caption-button" data-animation="animated fadeInUp">
-                                            <a href="#" class="button">Read more</a>
+                                            <a href="#contact-page" class="button white contact-btn">Contact US</a>
                                         </div>
                                     </div>
                                     <div class="col-xs-6 col-md-3">
@@ -227,7 +228,7 @@
                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute</p>
                                         </div>
                                         <div class="caption-button" data-animation="animated fadeInUp">
-                                            <a href="#" class="button">Read more</a>
+                                            <a href="#contact-page" class="button white contact-btn">Contact US</a>
                                         </div>
                                     </div>
                                     <div class="col-xs-6 col-md-3">
@@ -252,7 +253,7 @@
                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute</p>
                                         </div>
                                         <div class="caption-button" data-animation="animated fadeInUp">
-                                            <a href="#" class="button">Read more</a>
+                                            <a href="#contact-page" class="button white contact-btn">Contact US</a>
                                         </div>
                                     </div>
                                     <div class="col-xs-6 col-md-3">
@@ -277,7 +278,7 @@
                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute</p>
                                         </div>
                                         <div class="caption-button" data-animation="animated fadeInUp">
-                                            <a href="#" class="button">Read more</a>
+                                            <a href="#contact-page" class="button white contact-btn">Contact US</a>
                                         </div>
                                     </div>
                                     <div class="col-xs-6 col-md-3">
@@ -585,10 +586,8 @@
     </section> -->
 
 
-
-
-    <footer class="footer-area relative sky-bg" id="contact-page">
-        <div class="absolute footer-bg"></div>
+    <footer class="footer-area overlay relative" id="contact-page">
+        <div class="absolute anlge-bg"></div>
         <div class="footer-top">
             <div class="container">
                 <div class="row">

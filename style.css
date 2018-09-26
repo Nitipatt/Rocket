@@ -651,7 +651,13 @@ input:-webkit-autofill:focus {
     text-align: center;
 }
 
+.footer-area {
+    background: url('images/shakehand.jpg') no-repeat scroll center center / cover
+}
 
+.product-area {
+    background: url('images/product.jpg') no-repeat scroll center center / cover
+}
 /***
 *Price-area
 ***/
