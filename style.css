@@ -130,7 +130,7 @@ input:-webkit-autofill:focus {
     flex-wrap: wrap
 }
 
-.team-photo{
+.team-photo,.team-photo2{
     width: 413px;
     height: 460px;
     overflow: hidden;
@@ -140,6 +140,9 @@ input:-webkit-autofill:focus {
     margin: -100px 0 0 -150px;
 }
 
+.team-photo2 img {
+    margin: -70px 0 0 -50px;
+}
 
 .navbar-brand{
     padding-top: 5px;
@@ -567,22 +570,32 @@ input:-webkit-autofill:focus {
     transform: translateY(-5px)
 }
 
-.single-team .team-photo {
+.single-team .team-photo,.single-team .team-photo2 {
     margin-bottom: 20px;
     padding-top: 20px;
     overflow: hidden;
 }
 
-.single-team .team-photo img {
+.single-team .team-photo img,.single-team .team-photo2 img {
     -webkit-transform: scale(1);
     transform: scale(1);
     -webkit-transition: 0.3s;
     transition: 0.3s;
 }
+.single-team .team-photo2 img {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
 
-.single-team:hover .team-photo img {
+.single-team:hover .team-photo img,.single-team:hover .team-photo2 img {
     -webkit-transform: scale(1.1);
     transform: scale(1.1)
+}
+.single-team:hover .team-photo2 img {
+    -webkit-transform: scale(1.6);
+    transform: scale(1.6)
 }
 
 .single-team h4 {
@@ -605,7 +618,7 @@ input:-webkit-autofill:focus {
 }
 
 .single-team:hover .social-menu {
-    bottom: 0;
+    bottom: 20px;
 }
 
 /***
