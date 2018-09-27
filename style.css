@@ -137,11 +137,11 @@ input:-webkit-autofill:focus {
 }
 
 .team-photo img {
-    margin: -100px 0 0 -150px;
+    margin: -100px 0 0 -5vw;
 }
 
 .team-photo2 img {
-    margin: -70px 0 0 -50px;
+    margin: -70px 0 0 -4vw;
 }
 
 .navbar-brand{
@@ -620,7 +620,14 @@ input:-webkit-autofill:focus {
 .single-team:hover .social-menu {
     bottom: 20px;
 }
-
+.navbar-title{
+            color: white !important;
+            font-size:1.2em !important;
+}
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
 /***
 *Testimonial-Page
 ***/
